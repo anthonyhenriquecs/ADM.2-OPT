@@ -5,7 +5,7 @@ import random
 import matplotlib.pyplot as plt
 
 
-# Parâmetros do algoritmo do morcego discreto (DBA)
+# Parâmetros do algoritmo (BA)
 num_bats = 100
 num_iterations = 100
 pulse_rate = 0.2
@@ -145,7 +145,7 @@ def update_bats(bats, velocities, best_bat, loudness, pulse_rate, distance_matri
 
 
 
-# Função principal do DBA
+# Função principal do BA
 def discrete_bat_algorithm(num_bats, num_iterations, loudness, pulse_rate, alpha, gamma, distance_matrix):
     num_cities = len(distance_matrix)
 
